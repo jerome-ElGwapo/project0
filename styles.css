@@ -45,10 +45,10 @@ img {
 /* main */
 
 .main__container {
-    margin-top: .5rem;
+    margin-top: 8rem;
     height: 15rem;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -70,3 +70,20 @@ form input[type="text"]:hover {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+.submit__buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.submit__buttons input {
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    border-radius: .5rem;
+}
+
+.submit__buttons input:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
